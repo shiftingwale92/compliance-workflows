@@ -1,0 +1,4 @@
+event_id,timestamp,data_principal_ref,notice_version,purpose,action_given_or_withdrawn,method,notes
+CL-0001,2026-11-02T10:14:00+05:30,DP-88412,v1.0,account operation,given,app checkbox unticked by default,
+CL-0002,2026-11-02T10:14:00+05:30,DP-88412,v1.0,marketing messages,given,separate optional checkbox,
+CL-0003,2026-12-19T18:41:00+05:30,DP-88412,v1.0,marketing messages,withdrawn,in-app toggle,marketing suppression applied same minute
