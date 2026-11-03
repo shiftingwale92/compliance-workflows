@@ -1,0 +1,4 @@
+row_id,system_or_process,data_categories,data_principals,purpose,legal_basis_consent_or_s7,retention_period,storage_location,vendor_or_processor,safeguards,owner,review_date,notes
+BB-001,App signup,"phone; email; home address",customers,create and operate account,consent,life of account + 3 years,cloud Mumbai region,none,encryption at rest; access limited to ops team,Head of Ops,2027-01-15,date of birth field dropped 2026-10-28
+BB-002,Checkout,payment token; order history,customers,fulfil order,s.7(a) voluntary provision for the checkout purpose,per tax law,processor vault,payment gateway (PCI-DSS),tokenisation; no card storage,Finance Lead,2027-01-15,gateway engaged as Data Processor only under a valid contract (s.8(2))
+BB-003,Support tickets,"name; phone; issue text",customers,resolve support requests,consent,2 years,helpdesk SaaS,helpdesk vendor,role-based access,Support Lead,2027-04-15,
